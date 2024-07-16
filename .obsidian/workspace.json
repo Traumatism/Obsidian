@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7c2aab119ab93c8a",
+            "id": "7bebf330eb4d08a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Livres.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "90a9f9bff01d0ee1",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Livres.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Livres.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Livres.md"
+                "file": "README.md"
               }
             }
           }
@@ -147,9 +147,11 @@
       "publish:Publier les modifications": false
     }
   },
-  "active": "7c2aab119ab93c8a",
+  "active": "7bebf330eb4d08a7",
   "lastOpenFiles": [
-    "Bienvenue.md",
-    "Livres.md"
+    "Français",
+    "Livres.md",
+    "README.md",
+    "Bienvenue.md"
   ]
 }
