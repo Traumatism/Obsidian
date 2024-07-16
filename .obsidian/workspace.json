@@ -11,8 +11,12 @@
             "id": "df356d732162e2fb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Anglais/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Anglais/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Anglais/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Anglais/README.md"
+              }
             }
           }
         ]
@@ -141,8 +149,15 @@
   },
   "active": "df356d732162e2fb",
   "lastOpenFiles": [
-    "README.md",
     "Budget/README.md",
+    "Anglais/README.md",
+    "Français/README.md",
+    "Info/README.md",
+    "Maths/README.md",
+    "Physique/README.md",
+    "SI/README.md",
+    "Sans titre.md",
+    "README.md",
     "Français/Sans titre.canvas",
     "Budget",
     "Français/Vacances",
