@@ -151,5 +151,13 @@ $$Em=Ec+Epp$$
 $$\Delta{Ec}=\sum{W(\overrightarrow{F})}$$
 $$\implies\frac{\mathrm{d}Ec}{\mathrm{d}t}=\sum{\mathscr{P}(\overrightarrow{F})}$$
 
-Démo: $$m\frac{\mathrm{d}\vec{v}}{\mathrm{d}t}=\sum\overrightarrow{F}$$$$\implies\vec{v}\cdot{m\frac{\mathrm{d}\vec{v}}{\mathrm{d}t}}=\vec{v}\cdot\sum\overrightarrow{F}$$$$\implies{\frac{\mathrm{d}}{\mathrm{d}t}\Bigl(\frac{1}{2}m\vec{v}^2\Bigr)=\sum{\overrightarrow{F}\cdot{\vec{v}}}}$$
-$$\implies\frac{\mathrm{d}Ec}{\mathrm{d}t}=\sum{\mathscr{P}(\overrightarrow{F})}$$
+Démo:
+
+D'après le Principe Fondamental de la Dynamique: $$m\frac{\mathrm{d}\vec{v}}{\mathrm{d}t}=\sum\overrightarrow{F}$$Donc: $$\vec{v}\cdot{m\frac{\mathrm{d}\vec{v}}{\mathrm{d}t}}=\vec{v}\cdot\sum\overrightarrow{F}$$Par linéarité de $\sum$ et $\frac{\mathrm{d}}{\mathrm{d}t}$ , on trouve: $${\frac{\mathrm{d}}{\mathrm{d}t}\Bigl(\frac{1}{2}m\vec{v}^2\Bigr)=\sum{\overrightarrow{F}\cdot{\vec{v}}}}$$
+On reconnait la définition de l'énergie cinétique et de la puissance:
+$$\frac{\mathrm{d}Ec}{\mathrm{d}t}=\sum{\mathscr{P}(\overrightarrow{F})}$$
+On isole enfin $Ec$:
+$$\mathrm{d}Ec=\sum{\mathscr{P}(\overrightarrow{F})}\cdot\mathrm{d}t$$
+$$\implies{\int_{t_i}^{t_f}}\mathrm{d}Ec=\int_{t_i}^{t_f}\Biggl(\sum{\mathscr{P}(\overrightarrow{F})}\mathrm{d}t\Biggr)=\sum\int_{t_i}^{t_f}{\mathscr{P}(\overrightarrow{F})}\mathrm{d}t$$
+$$\implies{\Delta{Ec}=\sum{W(\overrightarrow{F})}}$$
+$\Box$
