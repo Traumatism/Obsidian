@@ -1,27 +1,25 @@
 # 1. Mouvements
 
 - $\langle\vec{u},\vec{v}\rangle=\vec{u}\cdot\vec{v}\triangleq\lVert\vec{u}\rVert\cdot\lVert\vec{v}\rVert\cdot\cos(\vec{u},\vec{v})$
-- $\forall{i}\ (\lVert\overrightarrow{e_i}\rVert=1)$
+- $\forall{i}(\lVert\overrightarrow{e_i}\rVert=1)$
 - $\frac{\mathrm{d}y}{\mathrm{d}t}\triangleq\dot{y}$
 - $\frac{\mathrm{d^2}y}{\mathrm{d}t^2}\triangleq\ddot{y}$
-
-
 ## 1.1. Coordonnées cartésiennes
 
 ## 1.2. Coordonnées cylindriques
 
-- $\overrightarrow{OM} = r\overrightarrow{e_r}+z\overrightarrow{e_z}$
-- $\vec{v} = \dot{r}\overrightarrow{e_{r}}+ r\dot{\theta}\overrightarrow{e_{\theta}}+\dot{z}\overrightarrow{e_z}$
+- $\overrightarrow{OM}=r\overrightarrow{e_r}+z\overrightarrow{e_z}$
+- $\vec{v}=\dot{r}\overrightarrow{e_{r}}+ r\dot{\theta}\overrightarrow{e_{\theta}}+\dot{z}\overrightarrow{e_z}$
 - $\vec{a}=(\ddot{r}-r\dot{\theta}^{2})\overrightarrow{e_{r}}+(2\dot{r}\dot{\theta}+r\ddot{\theta})\overrightarrow{e_{\theta}}+\ddot{z}\overrightarrow{e_z}$
 ## 1.3. Coordonnées sphériques
 
-- $\overrightarrow{OM} = r\overrightarrow{e_r}$
-- $\vec{v} = \dot{r}\overrightarrow{e_{r}}+ r\dot{\theta}\overrightarrow{e_{\theta}}+rsin(\theta)\dot{\varphi}\overrightarrow{e_\varphi}$
+- $\overrightarrow{OM}=r\overrightarrow{e_r}$
+- $\vec{v}=\dot{r}\overrightarrow{e_{r}}+ r\dot{\theta}\overrightarrow{e_{\theta}}+rsin(\theta)\dot{\varphi}\overrightarrow{e_\varphi}$
 - $\vec{a}=\dot{\vec{v}}$
 ## 1.4. Coordonnées polaires
 
-- $\overrightarrow{OM} = r\overrightarrow{e_r}$
-- $\vec{v} = \dot{r}\overrightarrow{e_{r}}+ r\dot{\theta}\overrightarrow{e_{\theta}}$
+- $\overrightarrow{OM}=r\overrightarrow{e_r}$
+- $\vec{v}=\dot{r}\overrightarrow{e_{r}}+ r\dot{\theta}\overrightarrow{e_{\theta}}$
 - $\vec{a}=(\ddot{r}-r\dot{\theta}^{2})\overrightarrow{e_{r}}+(2\dot{r}\dot{\theta}+r\ddot{\theta})\overrightarrow{e_{\theta}}$
 
 ## 1.5. Mouvements particuliers
@@ -40,9 +38,9 @@ Forces de frottement:
 - Visqueux: $\vec{f}\triangleq-\alpha\vec{v}$
 - Turbulents: $\vec{f}\triangleq-{C_x}\frac{\rho{S}}{2}v\vec{v}$
 
-Force de rappel d'un ressort (_Loi de Hooke_): $\overrightarrow{F} \triangleq -k(l-l_0)\overrightarrow{e_x}$
+Force de rappel d'un ressort (_Loi de Hooke_): $\overrightarrow{F}\triangleq-k(l-l_0)\overrightarrow{e_x}$
 
-Poussée d'Archimède: $\overrightarrow{\Pi} \triangleq -\rho{V}\vec{g}$
+Poussée d'Archimède: $\overrightarrow{\Pi}\triangleq-\rho{V}\vec{g}$
 
 ## 2.2. Masse et quantité de mouvement
 
@@ -58,7 +56,7 @@ Quantité de mouvement: $\vec{p}\triangleq m\vec{v}$
 
 #### 2.3.1.a. Principe d'inertie _(Première loi de Newton)_
 
-Système en mouvement rectiligne uniforme $\iff \sum{\overrightarrow{F}}=\vec{0}$
+Système en mouvement rectiligne uniforme $\iff\sum{\overrightarrow{F}}=\vec{0}$
 #### 2.3.1.b. Principe fondamental de la dynamique _(Seconde loi de Newton)_
 
 $\dot{p}=\sum{\overrightarrow{F}}$ donc $\dot{m}\vec{v}+m\dot{\vec{v}}=\sum{\overrightarrow{F}}$
@@ -75,7 +73,7 @@ Référentiel: Terrestre
 Système: Objet de masse m
 Bilan: $\overrightarrow{P}$
 
-La seconde loi de Newton donne: $m\vec{a} = \overrightarrow{P} \implies \vec{a}=\vec{g}=-g\overrightarrow{e_z}$
+La seconde loi de Newton donne: $m\vec{a}=\overrightarrow{P} \implies \vec{a}=\vec{g}=-g\overrightarrow{e_z}$
 
 $\xRightarrow{\int} \vec{v}=(v_0\cos\alpha)\overrightarrow{e_x}+(-gt+v_0\sin\alpha)\overrightarrow{e_z}$
 $\xRightarrow{\int} \overrightarrow{OM}=(v_0{t}\cos\alpha)\overrightarrow{e_x}+(-\frac{1}{2}gt^2+v_0{t}\sin\alpha)\overrightarrow{e_z}$
@@ -88,7 +86,7 @@ Référentiel: Terrestre
 Système: Objet de masse m
 Bilan: $\overrightarrow{P}$, $\overrightarrow{N}$, $\overrightarrow{F}$
 
-La seconde loi de Newton donne: $m\vec{a} = \overrightarrow{P} + \overrightarrow{N} + \overrightarrow{F}$
+La seconde loi de Newton donne: $m\vec{a}=\overrightarrow{P}+\overrightarrow{N}+\overrightarrow{F}$
 Après avoir projeté sur $\overrightarrow{e_x}$: $m\ddot{x}=-k(x-l_0)$
 
 On pose $X:=x-l_0$
@@ -98,7 +96,7 @@ On a alors: $\ddot{X}+\omega_{0}^{2}X=0$ avec $\omega_{0}:=\sqrt{\frac{k}{m}}$
 **Méthode 1**
 
 donc $X\triangleq\alpha\cos\omega_0{t}+\beta\sin\omega_0{t}$
-Or $X(0) = \alpha$ d'où $\alpha = X_0$ et $\frac{dX}{dt}=\beta\omega_0$ d'où $\beta=\frac{v_0}{\omega_0}$
+Or $X(0)=\alpha$ d'où $\alpha = X_0$ et $\frac{dX}{dt}=\beta\omega_0$ d'où $\beta=\frac{v_0}{\omega_0}$
 Ainsi: $X = X_0\cos\omega_0{t}+\frac{v_0}{\omega_0}\sin\omega_0{t}$
 
 **Méthode 2**
@@ -121,9 +119,10 @@ Force de Lorentz
 ## 3.1. Travail d'une force
 
 Travail infinitésimal: $\delta{W}\triangleq\overrightarrow{F}\cdot\mathrm{d}\vec{\ell}=\overrightarrow{F}\cdot\vec{v}\cdot\mathrm{d}t$
+
 d'où le travail global: $W_{A\rightarrow{B}}(\overrightarrow{F})\triangleq\int_A^B{\overrightarrow{F}\cdot\mathrm{d}\vec{\ell}}$
 
-Cas d'une force constante: $W_{A\rightarrow{B}}(\overrightarrow{F}) = \overrightarrow{F}\cdot\overrightarrow{AB}$
+Cas d'une force constante: $W_{A\rightarrow{B}}(\overrightarrow{F})=\overrightarrow{F}\cdot\overrightarrow{AB}$
 
 Puissance: $\mathscr{P}\triangleq\frac{\delta{W}}{\mathrm{d}t}=\overrightarrow{F}\cdot{\vec{v}}$
 
@@ -135,5 +134,4 @@ $W_{A\rightarrow{B}}(\overrightarrow{P})=mg(\Delta_{A\rightarrow{B}}z)$
 
 ### 3.2.2. Travail de la force électrostatique
 
-$W_{A\rightarrow{B}}(\overrightarrow{F_{élec}}) = \int_A^B{q\overrightarrow{E}\cdot\mathrm{d}\ell}=\int_A^B{q\Bigl(-\frac{\partial{U}}{\partial{x}}\overrightarrow{e_x}\Bigr)\cdot\Bigl({\partial{x}\overrightarrow{e_x}+\partial{y}\overrightarrow{e_y}+\partial{z}\overrightarrow{e_{z}}}\Bigr)}=q(\Delta_{A\rightarrow{B}}U)$
- 
+$$W_{A\rightarrow{B}}(\overrightarrow{F_{élec}}) = \int_A^B{q\overrightarrow{E}\cdot\mathrm{d}\ell}$$$$=\int_A^B{q\Bigl(-\frac{\partial{U}}{\partial{x}}\overrightarrow{e_x}\Bigr)\cdot\Bigl({\partial{x}\overrightarrow{e_x}+\partial{y}\overrightarrow{e_y}+\partial{z}\overrightarrow{e_{z}}}\Bigr)}$$$$=q(\Delta_{A\rightarrow{B}}U)$$

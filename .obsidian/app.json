@@ -1,5 +1,5 @@
 {
-  "showRibbon": false,
-  "showInlineTitle": false,
+  "showRibbon": true,
+  "showInlineTitle": true,
   "promptDelete": false
 }

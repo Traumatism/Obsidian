@@ -1,9 +1,12 @@
 {
-  "accentColor": "",
-  "monospaceFontFamily": "Iosevka Fixed",
+  "accentColor": "#7d65bd",
+  "monospaceFontFamily": "VictorMono Nerd Font Mono",
   "translucency": true,
-  "cssTheme": "Minimal",
-  "interfaceFontFamily": "Iosevka",
+  "cssTheme": "Sanctum",
+  "interfaceFontFamily": "Victor Mono",
   "showViewHeader": false,
-  "nativeMenus": true
+  "nativeMenus": true,
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "baseFontSize": 15
 }
